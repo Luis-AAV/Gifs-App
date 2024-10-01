@@ -11,7 +11,7 @@ export class GifsService {
   public gifsList: Gif[] = [];
 
   private _tagsHistory: string[] = [];
-  private apiKey: string = 'zmOQi4Dkj373kpwmXP5CQH78p7GKvnfH';
+  private apiKey: string = 'TFr2sdjAii2jhVkMi5qf3uC2KHohhMpg';
   private serviceUrl: string = 'https://api.giphy.com/v1/gifs'
 
   constructor( private http:HttpClient ) {
@@ -71,7 +71,5 @@ export class GifsService {
       });
 
   }
-
-
 
 }
